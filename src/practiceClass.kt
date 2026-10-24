@@ -15,13 +15,13 @@ fun main() {
 }
 class Studentt(){
 
-    var id :Int = 0
+    //class properties
+    var id :Int = 0//member variable
     var name :String = ""
     var age :Int = 0
-    fun showDetails(){
+    fun showDetails(){ //member method
         println("id : $id")
         println("Name: $name")
         println("Age: $age")
-
     }
 }
