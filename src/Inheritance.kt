@@ -1,5 +1,6 @@
+/*
 fun main(args: Array<String>) {
-    val atm = ATM()
+    val atm = MyAtm()
     println(atm.balance)
     atm.deposit(500.00)
     println(atm.balance)
@@ -15,9 +16,10 @@ open class BankAccount {
         println(balance)
     }
 }
-class ATM() :BankAccount(){
+class ATM() :OurBankAccount(){
 
 }
+*/
 
 //vehicle -> parent
 //class bike -> Child,parent
